@@ -92,7 +92,7 @@ const App = () => {
       <div className="wrapper">
         <header>
           <img src="./hero-img.png" alt="Hero Banner" />
-          <h1>Find <span className="text-gradient">Movies</span> You'll Enjoy Without the Hassle</h1>
+          <h1>Unlock your next favorite <span className="text-gradient">Movie<span/>—no guesswork, just <span className="text-gradient">Magic<span/></h1>
 
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
